@@ -2,10 +2,10 @@
   "name": "team_strive",
   "version": "1.0.0",
   "description": "hng6 Task",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node app.js",
-    "start": "node app.js"
+    "test": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
