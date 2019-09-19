@@ -22,7 +22,7 @@ mongoose.connect('mongodb://strive:strive19@ds125628.mlab.com:25628/team_strive'
       console.log('An error occured when try to connect to Database', err)
     });
 
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 
 const publicDir = require('path').join(__dirname,'/public');
