@@ -20,6 +20,7 @@ body {
     -ms-background-size: cover;
     /*background-color: #348A96;*/
     background: url(../images/banner.jpg)no-repeat 0px 0px;
+    background-size: cover;
     text-align: center;
 }
 h1,h2,h3,h4,h5,h6{
@@ -49,6 +50,7 @@ h2.signin,h3.signin {
     -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
     box-shadow: 0px 35px 44px -22px #1f181b;
     padding: 60px 40px;
+    margin-bottom: 100px;
 }
 .top-buttons a {
     background: rgba(255, 255, 255, 0.15);
