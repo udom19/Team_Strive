@@ -117,7 +117,7 @@ form {
     border: none;
     border-bottom: 1px solid #889ba0;
     -webkit-appearance: none;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background: transparent;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
