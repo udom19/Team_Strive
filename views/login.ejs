@@ -1,14 +1,9 @@
-<% include partials/header %>
-
-<div class="top-buttons">
-<a href="/users/login"  class="active">Sign In</a><a href="/users/signup">Sign Up</a>
-</div>
-<h1>Sign In & Sign Up Form</h1>
+<h1 style="margin-top: 10%">Sign into your <strong style="color: #df5799">Strive</strong> account</h1>
 <div class="main">
 <!--form-stars-here-->
 		<div class="form">
 			<h2 class="signin">Sign In</h2>
-      <% include partials/messages %>
+      		<% include partials/messages %>
 			<form action="/users/login" method="post">
 					<input type="email" name="email" placeholder="Email" required="" />
 					<input type="password" name="password" placeholder="Password" required="" />
@@ -22,4 +17,4 @@
 		</div>
 <!--//form-ends-here-->
 
-      <% include partials/header %>
+      
