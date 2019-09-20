@@ -1,0 +1,22 @@
+             <h1 style="margin-top: 5%">Sign up on <strong style="color: #df5799">Strive </strong>for free</h1>
+            <div class="main">
+        <!--form-stars-here-->
+                <div class="form">
+                    <h2 class="signin">Fill in your details</h2>
+                    <% include partials/messages %>
+                    <form action="#" method="post">
+                         <input type="text" name="firstname" placeholder="First Name" value="<%= typeof firstname != 'undefined' ? firstname : '' %>" />
+                        <input type="text" name="lastname" placeholder="Last Name" value="<%= typeof lastname != 'undefined' ? lastname : '' %>" />
+                        <input type="email" name="email" placeholder="Email" value="<%= typeof email != 'undefined' ? email : '' %>" />
+                        <input type="password" name="password" placeholder="Password" value="<%= typeof password != 'undefined' ? password : '' %>" />
+                        <input type="password" name="password2" placeholder="Confirm password" value="<%= typeof password2 != 'undefined' ? password2 : '' %>" />
+                        <input type="text" name="phonenumber" placeholder="Phone Number" value="<%= typeof phonenumber != 'undefined' ? phonenumber : '' %>" />
+                        <div class="submit">
+                            <input type="submit" value="Sign up">
+                        </div>
+                        <p class="bottom"><a href="/users/login">Login</a>if you have an account already.</p>
+                    </form>
+                
+                </div>
+            </div>
+        <!-- form-ends-here -->

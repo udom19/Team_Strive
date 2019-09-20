@@ -1,0 +1,492 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*--main-content-starts-here--*/
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    text-transform: uppercase;
+    background: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    /*background-color: #348A96;*/
+    background: url(../images/strive3.jpg)no-repeat 0px 0px;
+    margin-bottom: 30px;
+    background-size: cover;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  sans-serif;
+
+}
+.top-buttons {
+    /* float: right; */
+    text-align: right;
+    padding: 2em 3em;
+    margin-top: 10%;
+}
+
+.main {
+    width: 42%;
+    margin: 0 auto;
+}
+h2.signin,h3.signin {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 2px;
+}
+.form {
+    background: rgba(41, 39, 39, 0.46);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 60px 40px;
+    margin-bottom: 100px;
+}
+.top-buttons-header a {
+    background: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 26px;
+    border: 1px solid #756d6d;
+    margin: 15px 15px 0px 0px;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    transition: 0.3s all;
+    border: 1px solid #fff;
+}
+.top-buttons-header a.active {
+    border-color: #df5799;
+    background: #df5799;
+}
+h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 10px 0 35px 0;
+    color: #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.icon-w3 h3 {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 164px;
+    padding: 16px 10px 16px 24px;
+    /* background: rgba(0, 0, 0, 0.42); */
+}
+.icon-w3 {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 31px;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+.form-sub-w3{
+    position:relative;
+}
+ .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 14px;
+    width: 95.5%;
+    border: none;
+    border-bottom: 1px solid #889ba0;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+a.forgot {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.submit input[type="submit"] {
+    background: #fff;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 13px 38px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+.submit input[type="submit"]:hover{
+    background: #df5799;
+    color:#ffffff;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+.bottom {
+    font-size: 14px;
+    color: #eee;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.bottom a {
+    color: #df5799;
+    outline: none;
+    text-decoration: none;
+    margin-right: 8px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label.checkbox {
+    display: block;
+    margin: 15px 0px 0px 3px;
+    text-align: left;
+}
+label p {
+        color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+    display: inline-block;
+}
+
+::-webkit-input-placeholder{
+    color:#fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+/*--responsive--*/
+@media(max-width:1440px){
+    h1 {
+        margin: 0px 0 35px 0;
+    }
+    .main {
+        width: 48%;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        font-size: 14px;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        width: 96.7%;
+    }
+    h2.signin, h3.signin {
+        margin-bottom: 1.5em;
+    }
+    a.forgot {
+        padding: 5px 0px;
+    }
+    .top-buttons {
+        padding: 2em 3em 1.5em;
+    }
+}
+@media(max-width:1366px){
+    .main {
+        width: 50%;
+    }
+}
+@media(max-width:1280px){
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 96.3%;
+    }
+}
+@media(max-width:1080px){
+    .top-buttons a {
+        font-size: 13px;
+        padding: 7px 24px;
+        margin: 10px 11px 0px 0px;
+    }
+    h1 {
+        margin: 0px 0 30px 0;
+        font-size: 30px;
+    }
+    .main {
+        width: 55%;
+    }
+    .form {
+        padding: 40px 35px;
+    }
+    .top-buttons {
+        padding: 1.5em 2em 1em;
+    }
+    h2.signin, h3.signin {
+        margin-bottom: 1.2em;
+    }
+}
+@media(max-width:1024px){
+    .snow-container {
+        height: 675px;
+    }
+    h1 {
+        margin: 20px 0 35px 0;
+        font-size: 30px;
+    }
+    .main {
+        width: 59%;
+    }
+}
+@media(max-width:991px){
+    .main {
+        width: 62%;
+    }
+    h1 {
+        margin: 0px 0 30px 0;
+        font-size: 29px;
+    }
+    .copyright p {
+        margin: 33px 0px 0;
+    }
+}
+@media(max-width:900px){
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 96%;
+    }
+}
+@media(max-width:800px){
+    h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .form {
+        padding: 35px 30px;
+    }
+    .top-buttons {
+        padding: 1.8em 2em 1.2em;
+    }
+    .main {
+        width: 71%;
+    }
+}
+@media(max-width:768px){
+    .top-buttons {
+        padding: 2.8em 3em 3.2em;
+    }
+    h1 {
+        margin: 0px 0 52px 0;
+    }
+}
+@media(max-width:767px){
+    .top-buttons {
+        padding: 1.8em 2em 1.2em;
+    }
+    h1 {
+        margin: 0px 0 30px 0;
+    }
+    .submit input[type="submit"] {
+        padding: 10px 38px;
+    }
+}
+@media(max-width:736px){
+    .main {
+        width: 75%;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 95.7%;
+    }
+}
+@media(max-width:667px){
+    h1 {
+        font-size: 23px;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 95.4%;
+    }
+    .bottom {
+        font-size: 13px;
+    }
+    .top-buttons a {
+        margin: 0px 11px 0px 0px;
+    }
+}
+@media(max-width:640px){
+    h1 {
+        word-spacing: 2px;
+    }
+}
+@media(max-width:600px){
+    h1 {
+        font-size: 21px;
+    }
+    .main {
+        width: 82%;
+    }
+    h2.signin, h3.signin {
+        margin-bottom: 0.8em;
+        font-size: 17px;
+    }
+    .top-buttons {
+        padding: 2em 2em 1.5em;
+    }
+}
+@media(max-width:568px){
+    h1 {
+        word-spacing: 1px;
+        letter-spacing: 2.5px;
+        margin: 5px 0 30px 0;
+    }
+    .top-buttons a {
+        font-size: 11px;
+        padding: 6px 21px;
+    }
+    .top-buttons {
+        padding: 2em 1.5em 1.5em;
+    }
+}
+@media(max-width:480px){
+    .form {
+        padding: 30px 25px;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 94.2%;
+    }
+    a.forgot {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 18.5px;
+        letter-spacing: 2px;
+    }
+    .top-buttons {
+        padding: 2.5em 1.5em 1.5em;
+    }
+    .submit input[type="submit"] {
+        padding: 8px 38px;
+    }
+}
+@media(max-width:414px){
+    h1 {
+        line-height: 30px;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        width: 93.1%;
+        font-size: 13px;
+    }
+    .bottom {
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+@media(max-width:384px){
+    h1 {
+        margin: 0px 27px 13px;
+    }
+    .top-buttons {
+        padding: 2em 1em 1em;
+    }
+    .main {
+        width: 90%;
+    }
+    .top-buttons a {
+        margin: 0px 8px 0px 0px;
+    }
+    .submit input[type="submit"] {
+        font-size: 13px;
+    }
+}
+@media(max-width:375px){
+    h2.signin, h3.signin {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 16px;
+        letter-spacing: 2.3px;
+    }
+}
+@media(max-width:320px){
+    .main {
+        width: 92%;
+    }
+    .top-buttons {
+        padding: 1em 0.5em .8em;
+    }
+    .top-buttons a {
+        padding: 4px 16px;
+    }
+    h1 {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0px 27px 11px;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"] {
+        padding: 7px 7px;
+        margin-bottom: 15px;
+        width: 94.1%;
+    }
+    a.forgot {
+        padding: 0px 0px;
+    }
+    .form {
+        padding: 23px 23px;
+    }
+    h2.signin, h3.signin {
+        font-size: 14px;
+        margin-bottom: 0.5em;
+    }
+    .bottom {
+        line-height: 20px;
+    }
+}
+/*--responsive--*/
+
+.navbar {
+    height: 80px;
+}
+
+.sub-header {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    color: white;
+}
+

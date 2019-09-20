@@ -1,0 +1,20 @@
+<h1 style="margin-top: 10%">Sign into your <strong style="color: #df5799">Strive</strong> account</h1>
+<div class="main">
+<!--form-stars-here-->
+		<div class="form">
+			<h2 class="signin">Sign In</h2>
+      		<% include partials/messages %>
+			<form action="/users/login" method="post">
+					<input type="email" name="email" placeholder="Email" required="" />
+					<input type="password" name="password" placeholder="Password" required="" />
+					<a href="#" class="forgot">Forgot Password ?</a>
+				<div class="submit">
+					<input type="submit" value="Sign in">
+				</div>
+				<p class="bottom"><a href="/users/signup">Sign Up here</a>if u do not have an account yet.</p>
+			</form>
+		</div>
+		</div>
+<!--//form-ends-here-->
+
+      
